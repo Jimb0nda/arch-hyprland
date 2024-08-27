@@ -121,11 +121,11 @@ cat <<"EOF"
                      |_|    
 
 EOF
-echo "for ML4W Hyprland Starter"
+echo "for Hyprland"
 echo
 echo -e "${NONE}"
 
-echo "This script will download the ML4W Hyprland Starter and start the installation."
+echo "This script will download the Jimb0nda Hyprland Setup and start the installation."
 echo
 while true; do
     read -p "DO YOU WANT TO START THE INSTALLATION NOW? (Yy/Nn): " yn
@@ -193,17 +193,17 @@ fi
 cd ~/Downloads
 
 # Remove existing folder
-if [ -d ~/Downloads/hyprland-starter ] ;then
-    rm -rf ~/Downloads/hyprland-starter
+if [ -d ~/Downloads/hyprland ] ;then
+    rm -rf ~/Downloads/hyprland
     echo ":: Existing installation folder removed"
 fi
 
 # Clone the packages
-git clone --depth 1 https://github.com/Jimb0nda/arch-hyprland.git
+git clone --depth 1 https://github.com/Jimb0nda/hyprland.git
 echo ":: Installation files cloned into Downloads folder"
 
 # Change into the folder
-cd arch-hyprland
+cd hyprland
 
 # Start the script
 ./install.sh

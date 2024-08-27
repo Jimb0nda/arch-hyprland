@@ -1,6 +1,6 @@
 # Hyprland Setup v1
 
-![image](https://github.com/mylinuxforwork/hyprland-starter/assets/145253254/0e6b3bcd-7b60-4d11-a7c4-7fc3ad708adf)
+![image](https://github.com/mylinuxforwork/hyprland/assets/145253254/0e6b3bcd-7b60-4d11-a7c4-7fc3ad708adf)
 
 
 ## Requirements
@@ -11,7 +11,7 @@ Ths script supports the following distributions:
 
 ## Documentation (Wiki)
 
-You can find the complete documentation of the ML4W Dotfiles in the Wiki. <b>[Open the Wiki here](https://github.com/mylinuxforwork/hyprland-starter/wiki)</b>
+You can find the complete documentation of the ML4W Dotfiles in the Wiki. <b>[Open the Wiki here](https://github.com/mylinuxforwork/hyprland/wiki)</b>
 
 ## Installation
 
@@ -39,7 +39,7 @@ The script will install the following packages and the corresponding configurati
 - qt6-wayland 
 - Lock screen: hyprlock
 
-You can find all shipped configurations here: https://github.com/mylinuxforwork/hyprland-starter/tree/main/dotfiles
+You can find all shipped configurations here: https://github.com/mylinuxforwork/hyprland/tree/main/dotfiles
 
 ## Key Bindings
 
@@ -60,4 +60,4 @@ or after the installation with right mouse click on Apps in the status bar.
 
 ## Inspiration
 
-- mylinuxforwork (Stephan Raabe) https://github.com/mylinuxforwork/hyprland-starter
+- mylinuxforwork (Stephan Raabe) https://github.com/mylinuxforwork/hyprland
